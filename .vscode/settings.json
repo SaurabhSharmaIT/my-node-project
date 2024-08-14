@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/eb72f265-679f-4456-9925-784e726522ed/resourceGroups/bootcampaugust/providers/Microsoft.Web/sites/saurabhEMPN1077",
+    "appService.deploySubpath": "."
+}

@@ -11,13 +11,12 @@ const port = 8000;
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-// Middleware to serve static files
-app.use(express.static(path.join(__dirname, 'public')));
+
 
 // Route to handle home page
 app.get('/', async (req, res) => {
     
-    res.render('index');
+    res.render('task1');
 });
 
 //Route to handle task2 page
